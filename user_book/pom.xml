@@ -359,6 +359,28 @@
 					<uriEncoding>UTF-8</uriEncoding>
 				</configuration>
 			</plugin>
+			<plugin>
+          <groupId>org.codehaus.cargo</groupId>
+            <artifactId>cargo-maven2-plugin</artifactId>
+              <version>1.4.15</version>
+              <configuration>
+          <container>
+            <containerId>tomcat8x</containerId>
+            <type>remote</type>
+         </container>
+         <configuration>
+            <type>runtime</type>
+            <properties>
+                <cargo.tomcat.manager.url>http://localhost:8091/manager</cargo.tomcat.manager.url>
+                <cargo.remote.username>tomcat</cargo.remote.username>
+                <cargo.remote.password>123456</cargo.remote.password>
+                <cargo.servlet.port>8091</cargo.servlet.port>
+                <cargo.hostname>localhost:8091</cargo.hostname>
+                <cargo.tomcat.ajp.port>8011</cargo.tomcat.ajp.port>
+            </properties>
+        </configuration>
+    </configuration>
+</plugin>
 		</plugins>
 		<resources>
 			<resource>  
