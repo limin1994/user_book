@@ -365,7 +365,7 @@
               <version>1.4.15</version>
               <configuration>
           <container>
-            <containerId>tomcat8x</containerId>
+            <containerId>tomcat7x</containerId>
             <type>remote</type>
          </container>
          <configuration>
