@@ -390,6 +390,7 @@
 			</resource>
 		</resources>
 		<finalName>user_book</finalName>
+		<defaultGoal>compile</defaultGoal>
 	</build>
 	
 	<profiles>  
