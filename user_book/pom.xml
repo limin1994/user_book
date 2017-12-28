@@ -371,8 +371,8 @@
          <configuration>
             <type>runtime</type>
             <properties>
-                <cargo.tomcat.manager.url>http://localhost:8091/manager/text</cargo.tomcat.manager.url>
-                <cargo.remote.username>tomcat</cargo.remote.username>
+                <cargo.tomcat.manager.url>http://localhost:8091/manager/html</cargo.tomcat.manager.url>
+                <cargo.remote.username>tomcat7.0</cargo.remote.username>
                 <cargo.remote.password>123456</cargo.remote.password>
                 <cargo.servlet.port>8091</cargo.servlet.port>
                 <cargo.tomcat.ajp.port>8011</cargo.tomcat.ajp.port>
